@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2CFD568519A5E5E0009EB68F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD568419A5E5E0009EB68F /* AppDelegate.swift */; };
-		2CFD568719A5E5E0009EB68F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD568619A5E5E0009EB68F /* ViewController.swift */; };
-		2CFD568A19A5E5E0009EB68F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD568819A5E5E0009EB68F /* Main.storyboard */; };
+		2CFD568719A5E5E0009EB68F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD568619A5E5E0009EB68F /* MainViewController.swift */; };
 		2CFD568C19A5E5E0009EB68F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD568B19A5E5E0009EB68F /* Images.xcassets */; };
 		2CFD569819A5E5E1009EB68F /* SlideView_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD569719A5E5E1009EB68F /* SlideView_SwiftTests.swift */; };
+		2CFD56A219A5E667009EB68F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD56A119A5E667009EB68F /* HomeViewController.swift */; };
+		2CFD56A419A5E691009EB68F /* LeftPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD56A319A5E691009EB68F /* LeftPanelViewController.swift */; };
+		2CFD56A619A68C2E009EB68F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD56A519A68C2E009EB68F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +30,14 @@
 		2CFD567F19A5E5E0009EB68F /* SlideView_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideView_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFD568319A5E5E0009EB68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CFD568419A5E5E0009EB68F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CFD568619A5E5E0009EB68F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2CFD568919A5E5E0009EB68F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CFD568619A5E5E0009EB68F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2CFD568B19A5E5E0009EB68F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2CFD569119A5E5E1009EB68F /* SlideView_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideView_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFD569619A5E5E1009EB68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CFD569719A5E5E1009EB68F /* SlideView_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView_SwiftTests.swift; sourceTree = "<group>"; };
+		2CFD56A119A5E667009EB68F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2CFD56A319A5E691009EB68F /* LeftPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftPanelViewController.swift; sourceTree = "<group>"; };
+		2CFD56A519A68C2E009EB68F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +79,11 @@
 		2CFD568119A5E5E0009EB68F /* SlideView_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				2CFD56A319A5E691009EB68F /* LeftPanelViewController.swift */,
 				2CFD568419A5E5E0009EB68F /* AppDelegate.swift */,
-				2CFD568619A5E5E0009EB68F /* ViewController.swift */,
-				2CFD568819A5E5E0009EB68F /* Main.storyboard */,
+				2CFD568619A5E5E0009EB68F /* MainViewController.swift */,
+				2CFD56A119A5E667009EB68F /* HomeViewController.swift */,
+				2CFD56A519A68C2E009EB68F /* Main.storyboard */,
 				2CFD568B19A5E5E0009EB68F /* Images.xcassets */,
 				2CFD568219A5E5E0009EB68F /* Supporting Files */,
 			);
@@ -189,8 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CFD568A19A5E5E0009EB68F /* Main.storyboard in Resources */,
 				2CFD568C19A5E5E0009EB68F /* Images.xcassets in Resources */,
+				2CFD56A619A68C2E009EB68F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +214,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CFD568719A5E5E0009EB68F /* ViewController.swift in Sources */,
+				2CFD568719A5E5E0009EB68F /* MainViewController.swift in Sources */,
 				2CFD568519A5E5E0009EB68F /* AppDelegate.swift in Sources */,
+				2CFD56A419A5E691009EB68F /* LeftPanelViewController.swift in Sources */,
+				2CFD56A219A5E667009EB68F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,17 +238,6 @@
 			targetProxy = 2CFD569219A5E5E1009EB68F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2CFD568819A5E5E0009EB68F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CFD568919A5E5E0009EB68F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2CFD569919A5E5E1009EB68F /* Debug */ = {
@@ -395,6 +392,7 @@
 				2CFD569D19A5E5E1009EB68F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CFD569E19A5E5E1009EB68F /* Build configuration list for PBXNativeTarget "SlideView_SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +401,7 @@
 				2CFD56A019A5E5E1009EB68F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
